@@ -21,5 +21,5 @@ chmod +x freddyKrueger.sh
 ./freddyKrueger.sh
 ```
 
-Credits:
+# Credits
 https://github.com/cube0x0/CVE-2021-1675
