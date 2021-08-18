@@ -1,5 +1,5 @@
 # FreddyKrueger
-* PrintNightmare Exploit script using metasploit. Educational purposes only
+* Automate PrintNightmare Exploit script using metasploit. Educational purposes only
 
 ![Image description](https://github.com/CharlesTheGreat77/FreddyKrueger/blob/main/E32AC7EA-9DF6-4E46-A901-98ACBC7C63CC.jpeg)
 
