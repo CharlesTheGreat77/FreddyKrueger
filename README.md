@@ -19,6 +19,7 @@ git clone https://github.com/cube0x0/CVE-2021-1675
 chmod +x freddyKrueger.sh
 ./freddyKrueger.sh
 ```
+Move freddyKrueger into the CVE.. file
 
 # Credits
 https://github.com/cube0x0/CVE-2021-1675
