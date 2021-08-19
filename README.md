@@ -22,7 +22,7 @@ chmod +x freddyKrueger.sh
 Move freddyKrueger into the CVE.. file
 
 # Screenshot
-![Image description](
+![Image description](https://github.com/CharlesTheGreat77/FreddyKrueger/blob/main/7D1FBD16-0C42-4E15-A80F-186327DD3892.jpeg)
 
 # Credits
 https://github.com/cube0x0/CVE-2021-1675
