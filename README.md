@@ -1,6 +1,6 @@
 # FreddyKrueger
-* Automate PrintNightmare Exploit script using metasploit. Educational purposes only
-
+* Automate PrintNightmare Exploit using metasploit. Educational purposes only
+* Configure CVE-2021-1675 before use, follow their GitHub below for setup. 
 ![Image description](https://github.com/CharlesTheGreat77/FreddyKrueger/blob/main/E32AC7EA-9DF6-4E46-A901-98ACBC7C63CC.jpeg)
 
 # Prerequisites
