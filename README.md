@@ -13,7 +13,6 @@ https://github.com/cube0x0/CVE-2021-1675
 ```
 git clone https://github.com/CharlesTheGreat77/FreddyKrueger
 git clone https://github.com/cube0x0/CVE-2021-1675
-mv /CVE-2021-1675/CVE-2021-1675.py /FreddyKrueger
 ```
 # Usage
 ```
