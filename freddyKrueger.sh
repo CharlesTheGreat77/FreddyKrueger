@@ -1,6 +1,17 @@
 #!/bin/bash
 #  EDUCATIONAL PURPOSES ONLY
 
+banner() {
+
+    _____________
+   /   Welcome   \
+   !      To     !
+   ! SpringsWood !
+   \_____________/
+         ! !
+         ! !  =[ Freddy Krueger >
+       \'! !'/ [ PrintNightmare Exploiter >
+
 echo -e "[*] Target IP Address"
 read -p "0=freddy(victim)> " target
 echo -e "[*] Target SMB Username: "
